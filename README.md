@@ -1,54 +1,58 @@
-# React + TypeScript + Vite
+# Pomodoro Timer App 🍅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Türkçe
 
-Currently, two official plugins are available:
+Bu proje, React ve TypeScript ile yapılmış bir Pomodoro Zamanlayıcı web uygulamasıdır. Pomodoro Tekniği’ni kullanarak kullanıcıların odaklanmış çalışma ve molalar arasında zamanlarını etkin yönetmelerini sağlar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Özellikler
+- `react-router-dom` ile sayfa geçişleri
+- Görev yönetimi ve zamanlayıcı ayarları
+- Tüm ekran boyutlarına uygun responsive tasarım
+- Context API ile global durum yönetimi
+- React Hook Form ile form yönetimi
+- Açık ve koyu tema desteği
+- Günlük motivasyon alıntıları API’den çekiliyor
+- İngilizce ve Türkçe dil seçeneği
 
-## Expanding the ESLint configuration
+### Kullanılan Teknolojiler
+- React
+- TypeScript
+- Tailwind CSS
+- React Router DOM
+- React Hook Form
+- Context API
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🌐 Canlı Demo  
+Uygulamayı canlı olarak buradan inceleyebilirsiniz:  
+[https://pomodoro-seven-pi.vercel.app/](https://pomodoro-seven-pi.vercel.app/)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## English
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This is a Pomodoro Timer web application built with React and TypeScript. It helps users manage their time effectively by following the Pomodoro Technique — alternating between focused work sessions and breaks.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Features
+- Multiple pages with smooth routing using `react-router-dom`
+- Task management and timer settings
+- Responsive design for all screen sizes
+- State management with Context API
+- Forms handled by React Hook Form
+- Dark and light theme support
+- Daily motivational quotes fetched from an API
+- Language toggle between English and Turkish
+
+### Technologies Used
+- React
+- TypeScript
+- Tailwind CSS
+- React Router DOM
+- React Hook Form
+- Context API
+
+### 🌐 Live Demo  
+Check out the live version of the app here:  
+[https://pomodoro-seven-pi.vercel.app/](https://pomodoro-seven-pi.vercel.app/)
+
+
+
