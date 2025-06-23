@@ -5,7 +5,6 @@ interface TimerControlsProps {
   onStart: () => void;
   onPause: () => void;
   onReset: () => void;
-  onSkip?: () => void;
 }
 
 export default function TimerControls({
@@ -13,7 +12,6 @@ export default function TimerControls({
   onStart,
   onPause,
   onReset,
-  onSkip
 }: TimerControlsProps) {
   const { language } = useApp();
 

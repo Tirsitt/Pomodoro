@@ -3,7 +3,6 @@ import { PomodoroProvider } from "./context/PomodoroContext";
 import { TaskProvider } from "./context/TaskContext";
 import { useApp } from "./context/AppContext";
 import HomePage from "./pages/Home";
-import { PomodoroPage } from "./pages/Pomodoro";
 import TasksPage from "./pages/Tasks";
 import Navbar from "./components/Navbar";
 import PomodoroLayout from "./pages/PomodoroLayout";

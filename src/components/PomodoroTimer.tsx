@@ -16,13 +16,6 @@ export default function PomodoroTimer() {
     longBreak: isDark ? 'text-blue-400' : 'text-blue-500'
   };
 
-  // Button colors based on mode
-  const buttonColors = {
-    focus: isDark ? 'bg-red-600 hover:bg-red-700' : 'bg-red-500 hover:bg-red-600',
-    shortBreak: isDark ? 'bg-green-600 hover:bg-green-700' : 'bg-green-500 hover:bg-green-600',
-    longBreak: isDark ? 'bg-blue-600 hover:bg-blue-700' : 'bg-blue-500 hover:bg-blue-600'
-  };
-
   const translations = {
     title: {
       en: "Pomodoro Timer",
